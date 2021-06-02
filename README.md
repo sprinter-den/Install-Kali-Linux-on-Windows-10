@@ -16,7 +16,7 @@ RESTART
 
 RESTART
 
-Download Linux Kernel: https://aka.ms/wsl2kernel
+Download Linux Kernel: https://github.com/sprinter-den/Install-Kali-Linux-on-Windows-10/raw/main/wsl_update_x64.msi
 
 ⚙️ wsl --set-default-version 2
 
