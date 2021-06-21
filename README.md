@@ -16,17 +16,18 @@
 
      Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 
-      RESTART
+   RESTART
 
      dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 
      dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 
-      RESTART
+   RESTART
 
-Download Linux Kernel: 
+#Download Linux Kernel: 
 
-      https://github.com/sprinter-den/Install-Kali-Linux-on-Windows-10/raw/main/wsl_update_x64.msi
+  [Linux Kernel](https://github.com/sprinter-den/Install-Kali-Linux-on-Windows-10/raw/main/wsl_update_x64.msi "Download Linux Kernel")
+      
 
       wsl --set-default-version 2
 
@@ -45,3 +46,4 @@ Download Linux Kernel:
       sudo apt install xrdp -y
 
       sudo service xrdp start
+[Cicada3301](https://github.com/Cicadadenis/)
