@@ -12,33 +12,35 @@
 
 ## Установка WSL 2
 
-*/ В POWERSHELL от имени  administrator /*
+#В POWERSHELL от имени  administrator 
 
   Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 
-RESTART
+   RESTART
 
   dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 
   dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 
-RESTART
+   RESTART
 
-Download Linux Kernel: https://github.com/sprinter-den/Install-Kali-Linux-on-Windows-10/raw/main/wsl_update_x64.msi
+Download Linux Kernel: 
+
+   https://github.com/sprinter-den/Install-Kali-Linux-on-Windows-10/raw/main/wsl_update_x64.msi
 
    wsl --set-default-version 2
 
-CHECK VERSION 
+#CHECK VERSION 
 
    wsl --list --verbose
 
-2. Установка GUI
+#Установка GUI
 
    sudo apt update && sudo apt upgrade -y
 
    sudo apt install kali-desktop-xfce -y
 
-XRDP
+#XRDP
 
    sudo apt install xrdp -y
 
