@@ -46,4 +46,12 @@ https://youtu.be/AfVH54edAHU
       sudo apt install xrdp -y
 
       sudo service xrdp start
+      
+#Displey
+
+            sudo apt update && sudo apt install -y kali-win-kex
+            
+#start displey
+
+            kex
 [Cicada3301](https://github.com/Cicadadenis/)
