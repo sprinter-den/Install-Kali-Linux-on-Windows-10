@@ -27,7 +27,7 @@
 #Download Linux Kernel: 
 
       Invoke-WebRequest -Uri https://aka.ms/wsl-kali-linux-new -OutFile Kali.appx -UseBasicParsing
-
+Скачавшийся фаил appx установить и продолжьть
   [Linux Kernel](https://github.com/sprinter-den/Install-Kali-Linux-on-Windows-10/raw/main/wsl_update_x64.msi "Download Linux Kernel")
       
 
