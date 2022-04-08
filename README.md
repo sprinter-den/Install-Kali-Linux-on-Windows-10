@@ -1,5 +1,5 @@
 # Установка Kali Linux на Windows 10
-https://youtu.be/AfVH54edAHU
+
 # 🔦🔦COMMANDS🔦🔦
 
 # Включение Hyper-V с помощью PowerShell
